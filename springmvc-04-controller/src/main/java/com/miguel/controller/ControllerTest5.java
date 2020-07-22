@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
-public class RestFulController {
+public class ControllerTest5 {
 
     //@RequestMapping(value = "/add/{a}/{b}", method = RequestMethod.GET)
     @GetMapping("/add/{a}/{b}") // 这个注解与以上注解等价

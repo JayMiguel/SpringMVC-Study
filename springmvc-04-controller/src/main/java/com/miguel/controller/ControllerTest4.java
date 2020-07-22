@@ -14,7 +14,7 @@ import java.io.IOException;
  * 以下方法不需要配置视图解析器InternalResourceViewResolver
  */
 @Controller
-public class ReqRespController {
+public class ControllerTest4 {
 
     @GetMapping("/forward")
     public String testForward(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
