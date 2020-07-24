@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+/**
+ * @RequestParam的用法
+ */
 @Controller
 @RequestMapping("/t6")
 public class ControllerTest6 {
